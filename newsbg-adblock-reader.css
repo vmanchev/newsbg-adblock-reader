@@ -1,0 +1,8 @@
+body {
+  overflow: auto!important;
+}
+
+.fc-ab-root,
+.cc_banner-wrapper {
+  display: none!important;
+}

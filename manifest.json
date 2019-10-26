@@ -1,0 +1,13 @@
+{
+  "name": "News.bg AdBlock reader",
+  "description": "Read news.bg with AdBlock enabled",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "css": ["newsbg-adblock-reader.css"],
+    "matches": ["https://news.bg/*"]
+  }],
+  "icons": {
+    "128": "newsbg-adblock-reader.png"
+  }
+}
